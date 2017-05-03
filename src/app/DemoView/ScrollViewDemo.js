@@ -14,7 +14,10 @@ class IScrolledDownAndWhatHappenedNextShockedMe extends Component {
     render() {
         return(
             <View>
-                <ScrollView horizontal={true}>
+                <View>
+                    <Text>12121212</Text>
+                </View>
+                <ScrollView horizontal={true} style={{height:400}}>
                     <Text style={{fontSize:96}}>Scroll me plz</Text>
                     <Image source={img} />
                     <Image source={img} />
