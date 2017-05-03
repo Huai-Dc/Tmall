@@ -77,7 +77,7 @@ export default class Movie extends Component{
         return(
             <ListView
                 dataSource={this.state.dataSource}
-                renderRow={this.renderMovie}
+                renderRow={this.renderMovie} //调用写好的单个模板
                 style={styles.listView}
             />
         );
