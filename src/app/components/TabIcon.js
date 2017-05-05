@@ -3,8 +3,22 @@
  */
 import React,{ Component } from 'react';
 import {
-    View,Text, StyleSheet, Animated,
+    Text
 } from 'react-native';
-import Button from 'react-native-button';
-import {Actions} from 'react-native-router-flux';
 
+const propTypes = {
+    selected:PropTypes.bool,
+    tabTitle:PropTypes.string,
+};
+
+const TabIcon = (props) => (
+    <Text
+        style={{color:props.selected ? 'red':'black'}}
+    >
+        {props.tabTitle}
+    </Text>
+);
+
+TabIcon.propTypes = propTypes;
+
+export default TabIcon;

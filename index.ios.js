@@ -13,14 +13,13 @@ import {
 //import Movie from './src/app/MovieDemo/Movie/index';
 //import FlexDemo from './src/app/DemoView/FlexDemo_3';
 //import Pizza from './src/app/DemoView/InputText';
-//import ScrollViewDemo from './src/app/DemoView/ScrollViewDemo';
-import NavigatorDemo from './src/app/NavigationChat/rootAp';
-//import RouterScene from './src/Router';
+import ScrollViewDemo from './src/app/DemoView/ScrollViewDemo';
+//import NavigatorDemo from './src/app/NavigationChat/rootAp';
 
 export default class Tmall extends Component {
   render() {
     return (
-      <NavigatorDemo />
+      <ScrollViewDemo />
     );
   }
 }
